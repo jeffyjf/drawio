@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-25T01:57:17.527Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="CAnYsbqWFY2_WrcZfL43" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-25T05:25:08.710Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="t-0h9smj2TZxq3GRiYMq" version="20.0.4" type="github">
   <diagram id="bbn4WEPqyENCLP_PK24W" name="Page-1">
     <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -16,7 +16,7 @@
         <mxCell id="ovz8IwlGmj3j4p8Ko8Wg-4" value="LVM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="473" y="420" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ovz8IwlGmj3j4p8Ko8Wg-5" value="各供应商的 FC 设备。。。" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ovz8IwlGmj3j4p8Ko8Wg-5" value="各种供应商的存储设备。。。" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="622" y="420" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ovz8IwlGmj3j4p8Ko8Wg-6" value="cinder-metal-csi" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
