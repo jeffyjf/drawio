@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-01T09:33:04.465Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="8t-lAIaU9eTAmrauqMp2" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-01T09:33:48.055Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="IwZeev_yQZqKPv3GeCJQ" version="20.2.7" type="github">
   <diagram id="ErCwi968BkKIkxXVaGPv" name="第 1 页">
     <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -91,8 +91,8 @@
         <mxCell id="tHJEwBymKxjTPnQwL3kc-33" value="Map to host node" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Lucida Console;fontSize=12;fontColor=none;rotation=30;" parent="1" vertex="1">
           <mxGeometry x="316" y="440" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tHJEwBymKxjTPnQwL3kc-35" value="k8s cluster" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Lucida Console;fontSize=12;fontColor=none;" parent="1" vertex="1">
-          <mxGeometry x="149" y="150" width="110" height="30" as="geometry" />
+        <mxCell id="tHJEwBymKxjTPnQwL3kc-35" value="k8s cluster" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Lucida Console;fontSize=18;fontColor=none;" parent="1" vertex="1">
+          <mxGeometry x="149" y="150" width="151" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tHJEwBymKxjTPnQwL3kc-37" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;fontFamily=Lucida Console;fontSize=12;fontColor=none;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="tHJEwBymKxjTPnQwL3kc-17" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
@@ -100,8 +100,8 @@
             <mxPoint x="434" y="414" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ze7vVeaUs0xb_e6l4rN9-2" value="openstack cluster" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;" vertex="1" parent="1">
-          <mxGeometry x="790" y="267" width="110" height="30" as="geometry" />
+        <mxCell id="Ze7vVeaUs0xb_e6l4rN9-2" value="openstack cluster" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="790" y="275" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
