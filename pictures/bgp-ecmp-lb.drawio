@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-02T08:54:03.878Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Rnj9RczWffsBm0l4srTx" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-02T08:59:17.177Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="VHoQ76Er_P_nOeQfY2UH" version="20.2.8" type="github">
   <diagram id="IzedzpKgEfjYTyYAFZdJ" name="第 1 页">
     <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -244,6 +244,9 @@
             <mxPoint x="640" y="154" as="sourcePoint" />
             <mxPoint x="425" y="200" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="lkru97uIpmWRwWarypAv-17" value="ECMP 路由条目&lt;br&gt;vip via ins-ip1&lt;br style=&quot;font-size: 16px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ins-ip2&lt;br style=&quot;font-size: 16px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ins-ip3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="270" y="200" width="140" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
