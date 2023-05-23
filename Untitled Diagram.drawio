@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-23T03:51:06.653Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="CzRz0RvWcunQ-QWrg4qO" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-23T05:34:21.121Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="2Em4wF04rCSzO8bXTHlK" version="21.3.2" type="github">
   <diagram name="Page-1" id="2m8M9cnOsgEXl5lKRifa">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -113,7 +113,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QqPdu8fFcgkaD3B5ARkc-32" value="物理机" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="680" y="500" width="60" height="30" as="geometry" />
+          <mxGeometry x="530" y="150" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QqPdu8fFcgkaD3B5ARkc-33" value="虚机2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="438" y="679" width="60" height="30" as="geometry" />
@@ -214,25 +214,25 @@
         <mxCell id="QqPdu8fFcgkaD3B5ARkc-68" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="1860" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QqPdu8fFcgkaD3B5ARkc-69" value="app&amp;nbsp; 发起读请求" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QqPdu8fFcgkaD3B5ARkc-69" value="1&lt;br&gt;app&amp;nbsp; 发起读请求" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="1950" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QqPdu8fFcgkaD3B5ARkc-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QqPdu8fFcgkaD3B5ARkc-70" target="QqPdu8fFcgkaD3B5ARkc-71">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QqPdu8fFcgkaD3B5ARkc-70" value="vitio 前端收到读请求" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QqPdu8fFcgkaD3B5ARkc-70" value="2&lt;br&gt;vitio 前端收到读请求" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="2039" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QqPdu8fFcgkaD3B5ARkc-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QqPdu8fFcgkaD3B5ARkc-71" target="QqPdu8fFcgkaD3B5ARkc-72">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QqPdu8fFcgkaD3B5ARkc-71" value="vitio 前端分配存放读请求结果的空间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QqPdu8fFcgkaD3B5ARkc-71" value="3&lt;br&gt;vitio 前端分配空间用于存放读请求结果" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="2130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QqPdu8fFcgkaD3B5ARkc-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QqPdu8fFcgkaD3B5ARkc-72" target="QqPdu8fFcgkaD3B5ARkc-74">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QqPdu8fFcgkaD3B5ARkc-72" value="vitrio 前端将请求转发到本发明所述适配层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QqPdu8fFcgkaD3B5ARkc-72" value="4&lt;br&gt;vitrio 前端将请求转发到本发明所述适配层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="2220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QqPdu8fFcgkaD3B5ARkc-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QqPdu8fFcgkaD3B5ARkc-74" target="QqPdu8fFcgkaD3B5ARkc-76">
@@ -241,19 +241,19 @@
         <mxCell id="QqPdu8fFcgkaD3B5ARkc-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QqPdu8fFcgkaD3B5ARkc-74" target="QqPdu8fFcgkaD3B5ARkc-75">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QqPdu8fFcgkaD3B5ARkc-74" value="适配层缓存是否有所请求数据？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QqPdu8fFcgkaD3B5ARkc-74" value="5&lt;br&gt;适配层缓存是否有所请求数据？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="345" y="2320" width="150" height="100" as="geometry" />
         </mxCell>
         <mxCell id="QqPdu8fFcgkaD3B5ARkc-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QqPdu8fFcgkaD3B5ARkc-75" target="QqPdu8fFcgkaD3B5ARkc-80">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QqPdu8fFcgkaD3B5ARkc-75" value="向 virtio 前端返回请求结果" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QqPdu8fFcgkaD3B5ARkc-75" value="8&lt;br&gt;向 virtio 前端返回请求结果" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="2449" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QqPdu8fFcgkaD3B5ARkc-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QqPdu8fFcgkaD3B5ARkc-76" target="QqPdu8fFcgkaD3B5ARkc-77">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QqPdu8fFcgkaD3B5ARkc-76" value="将请求转发到具体后端并等待结果返回" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QqPdu8fFcgkaD3B5ARkc-76" value="6&lt;br&gt;将请求转发到具体的vhost后端并等待结果返回" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="2340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QqPdu8fFcgkaD3B5ARkc-89" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QqPdu8fFcgkaD3B5ARkc-77" target="QqPdu8fFcgkaD3B5ARkc-75">
@@ -262,10 +262,10 @@
         <mxCell id="QqPdu8fFcgkaD3B5ARkc-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QqPdu8fFcgkaD3B5ARkc-77" target="QqPdu8fFcgkaD3B5ARkc-78">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QqPdu8fFcgkaD3B5ARkc-77" value="具体后端返回请求结果" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QqPdu8fFcgkaD3B5ARkc-77" value="7&lt;br&gt;具体后端返回请求结果" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="2449" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QqPdu8fFcgkaD3B5ARkc-78" value="将结果放入本适配层的缓存空间中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QqPdu8fFcgkaD3B5ARkc-78" value="9&lt;br&gt;将结果放入本适配层的缓存空间中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="2548" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QqPdu8fFcgkaD3B5ARkc-80" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
