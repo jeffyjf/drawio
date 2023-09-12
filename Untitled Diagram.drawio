@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-12T01:01:54.301Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Fh3S-A5JShtF-1msMvGi" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-12T05:30:52.948Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="v85b8G92Bb8h5sKD_cdQ" version="21.5.2" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="2534" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -10,20 +10,6 @@
         <mxCell id="7baba1c4bc27f4b0-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="7baba1c4bc27f4b0-2" vertex="1">
           <mxGeometry x="70" y="100" width="10" height="460" as="geometry" />
         </mxCell>
-        <mxCell id="Uvoi6h-52d142eS9SI7n-13" value="qtc 需要监听三个端口，分别用于客户端连接平台，mqtt，VM" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="7baba1c4bc27f4b0-2">
-          <mxGeometry x="-40" y="190" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Uvoi6h-52d142eS9SI7n-33" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.4;entryY=0.978;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="7baba1c4bc27f4b0-2" target="7baba1c4bc27f4b0-10">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-85" y="550" as="sourcePoint" />
-            <mxPoint x="330" y="550" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Uvoi6h-52d142eS9SI7n-34" value="通过 qtc 连接平台" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Uvoi6h-52d142eS9SI7n-33">
-          <mxGeometry x="-0.0332" y="-4" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="7baba1c4bc27f4b0-3" value="quic-tun-s" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="400" y="80" width="100" height="580" as="geometry" />
         </mxCell>
@@ -34,7 +20,7 @@
           <mxGeometry x="540" y="80" width="100" height="580" as="geometry" />
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-8" value="客户端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
-          <mxGeometry x="100" y="80" width="100" height="580" as="geometry" />
+          <mxGeometry x="49" y="80" width="100" height="580" as="geometry" />
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="7baba1c4bc27f4b0-8" vertex="1">
           <mxGeometry x="45" y="100" width="10" height="460" as="geometry" />
@@ -43,7 +29,7 @@
           <mxGeometry x="585" y="190" width="10" height="450" as="geometry" />
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-40" value="特指现在的客户端程序" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
-          <mxGeometry x="100" y="30" width="100" height="35" as="geometry" />
+          <mxGeometry x="49" y="30" width="100" height="35" as="geometry" />
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-41" value="需要集成到客户端" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
           <mxGeometry x="240" y="30" width="100" height="35" as="geometry" />
@@ -55,7 +41,7 @@
           <mxGeometry x="540" y="30" width="100" height="35" as="geometry" />
         </mxCell>
         <mxCell id="Uvoi6h-52d142eS9SI7n-1" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="-90" y="190" width="30" height="60" as="geometry" />
+          <mxGeometry x="-130" y="190" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Uvoi6h-52d142eS9SI7n-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Uvoi6h-52d142eS9SI7n-1" target="7baba1c4bc27f4b0-8">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -68,9 +54,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Uvoi6h-52d142eS9SI7n-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.3;entryY=0.164;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="Uvoi6h-52d142eS9SI7n-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.1;entryY=0.12;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7baba1c4bc27f4b0-8" target="7baba1c4bc27f4b0-10">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="155" y="236.15999999999997" as="sourcePoint" />
+            <mxPoint x="155" y="236" as="sourcePoint" />
             <mxPoint x="288" y="236.15999999999997" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -106,13 +92,13 @@
         </mxCell>
         <mxCell id="Uvoi6h-52d142eS9SI7n-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="7baba1c4bc27f4b0-10">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="155" y="371" as="sourcePoint" />
+            <mxPoint x="110" y="380" as="sourcePoint" />
             <mxPoint x="280" y="371" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Uvoi6h-52d142eS9SI7n-18" value="告诉 qtc 平台地址&lt;br&gt;(如何告诉)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Uvoi6h-52d142eS9SI7n-17">
+        <mxCell id="Uvoi6h-52d142eS9SI7n-18" value="调用 qtc 接口，启动&lt;br&gt;本地监听并与服务端&lt;br&gt;平台 地址做映射" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Uvoi6h-52d142eS9SI7n-17">
           <mxGeometry x="-0.2462" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="25" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Uvoi6h-52d142eS9SI7n-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.523;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="7baba1c4bc27f4b0-9" target="7baba1c4bc27f4b0-2">
@@ -173,15 +159,15 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Uvoi6h-52d142eS9SI7n-30" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.3;entryY=0.92;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="7baba1c4bc27f4b0-10">
+        <mxCell id="Uvoi6h-52d142eS9SI7n-30" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.3;entryY=0.92;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7baba1c4bc27f4b0-8" target="7baba1c4bc27f4b0-10">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="160" y="603" as="sourcePoint" />
             <mxPoint x="570" y="603" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Uvoi6h-52d142eS9SI7n-31" value="告诉 qtc 虚机 spice 地址" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Uvoi6h-52d142eS9SI7n-30">
+        <mxCell id="Uvoi6h-52d142eS9SI7n-31" value="调用 qtc 接口，启动本地&lt;br&gt;监听，并与服务端映射" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Uvoi6h-52d142eS9SI7n-30">
           <mxGeometry x="-0.2418" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="21" y="-8" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Uvoi6h-52d142eS9SI7n-35" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.978;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.3;entryY=0.982;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7baba1c4bc27f4b0-10" target="7baba1c4bc27f4b0-13">
@@ -203,6 +189,17 @@
         </mxCell>
         <mxCell id="Uvoi6h-52d142eS9SI7n-38" value="连接虚机" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Uvoi6h-52d142eS9SI7n-37">
           <mxGeometry x="-0.0002" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uvoi6h-52d142eS9SI7n-33" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.4;entryY=0.978;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7baba1c4bc27f4b0-8" target="7baba1c4bc27f4b0-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="155" y="630" as="sourcePoint" />
+            <mxPoint x="570" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uvoi6h-52d142eS9SI7n-34" value="通过 qtc 连接平台" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Uvoi6h-52d142eS9SI7n-33">
+          <mxGeometry x="-0.0332" y="-4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
