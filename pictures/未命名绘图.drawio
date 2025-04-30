@@ -1,9 +1,90 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.13">
   <diagram name="第 1 页" id="zysL2XSxJryhGfyw0kHi">
-    <mxGraphModel>
+    <mxGraphModel dx="1428" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="6t8FOy_YwunMIPgzC970-36" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#808080;" vertex="1" parent="1">
+          <mxGeometry x="243" y="347" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6t8FOy_YwunMIPgzC970-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#B9E0A5;" vertex="1" parent="1">
+          <mxGeometry x="160" y="270" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="6t8FOy_YwunMIPgzC970-8" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=90;labelBackgroundColor=none;fillColor=#E6D0DE;opacity=50;" vertex="1" parent="1">
+          <mxGeometry x="300.32" y="250.17" width="113.06" height="169.44" as="geometry" />
+        </mxCell>
+        <mxCell id="6t8FOy_YwunMIPgzC970-14" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#B9E0A5;" vertex="1" parent="1">
+          <mxGeometry x="430" y="267" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="6t8FOy_YwunMIPgzC970-2" value="Tunnel Local Socket" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7EA6E0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="280" width="48" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6t8FOy_YwunMIPgzC970-6" value="" style="shape=link;html=1;rounded=0;width=29;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="280" y="304.5" as="sourcePoint" />
+            <mxPoint x="432" y="304.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6t8FOy_YwunMIPgzC970-10" value="Tunnel" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="326.25" y="251" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6t8FOy_YwunMIPgzC970-12" value="dataChannel" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6t8FOy_YwunMIPgzC970-15" value="MQTT Broker Server" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1AE8FF;" vertex="1" parent="1">
+          <mxGeometry x="296.25" y="180" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6t8FOy_YwunMIPgzC970-16" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#1AE8FF;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="220" y="271" as="sourcePoint" />
+            <mxPoint x="296.25" y="206" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6t8FOy_YwunMIPgzC970-17" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#1AE8FF;" edge="1" parent="1" source="6t8FOy_YwunMIPgzC970-14" target="6t8FOy_YwunMIPgzC970-15">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="230" y="280" as="sourcePoint" />
+            <mxPoint x="310" y="185" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6t8FOy_YwunMIPgzC970-18" value="messageChanel" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-35;" vertex="1" parent="1">
+          <mxGeometry x="228" y="224" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6t8FOy_YwunMIPgzC970-19" value="messageChanel" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=40;" vertex="1" parent="1">
+          <mxGeometry x="423" y="221" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6t8FOy_YwunMIPgzC970-22" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C6E0D2;" vertex="1" parent="1">
+          <mxGeometry x="150" y="280" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6t8FOy_YwunMIPgzC970-23" value="APP Service" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="350" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6t8FOy_YwunMIPgzC970-24" value="APP Client" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="285" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6t8FOy_YwunMIPgzC970-26" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6t8FOy_YwunMIPgzC970-24" target="6t8FOy_YwunMIPgzC970-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="430" as="sourcePoint" />
+            <mxPoint x="200" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6t8FOy_YwunMIPgzC970-29" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6t8FOy_YwunMIPgzC970-14" target="6t8FOy_YwunMIPgzC970-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="430" as="sourcePoint" />
+            <mxPoint x="200" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6t8FOy_YwunMIPgzC970-30" value="Remote APP Local Socket" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="145" y="281" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6t8FOy_YwunMIPgzC970-31" value="Tunnel Local Socket" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7EA6E0;" vertex="1" parent="1">
+          <mxGeometry x="423" y="347" width="48" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6t8FOy_YwunMIPgzC970-32" value="wovenet siet" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="330" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6t8FOy_YwunMIPgzC970-33" value="wovenet siet" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
